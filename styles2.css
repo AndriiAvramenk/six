@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+ul>li {
+    padding-right: 50px;
+}
+
+ul>li:last-child{
+    padding-right: 0;
+}
+
+.logo {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    
+    letter-spacing: 0.03em;
+    
+}
+
+.logo>.first {
+    color: #2196f3;
+}
+
+.nav-list {
+ font-family: 'Roboto', sans-serif;
+ font-size: 14px;
+ color: #252525;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+ cursor: pointer;
+ transition: 0.5s;
+}
+
+.nav-list:hover {
+    color: #2196f3;
+
+}
+
+.email {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #757575;
+}
+
+
+.tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #757575;
+}
+
+.email:hover {
+    color: #2196f3;
+ 
+}
+
+.btns {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btns-function {
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #F5F4FA;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btns-function:nth-of-type(5) {
+    margin-right: 0;
+}
+
+.btns-function:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 100px;
+
+}
+
+.project {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+    margin-right: 30px;
+
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    font-family: "Roboto 700", sans-serif;
+    color: #212121;
+    font-size: 18px;
+
+}
+
+.description {
+    font-family: "Roboto", sans-serif;
+    color: #757575;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+footer {
+    height: 252px;
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    padding-left: 215px;
+
+}
+
+.logo1 {
+    width: 145px;
+    height: 31px;
+    padding-top: 65px;
+    
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    
+    letter-spacing: 0.03em;
+    color: white;
+
+
+}
+
+.logo1>.first1 {
+    color: #2196f3;
+}
+
+.addres {
+    width: 231px;
+    height: 21px;
+    padding-top: 45px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.addres:hover {
+    color: #2196f3;
+}
+
+.email1 {
+    width: max-content;
+    height: 21px;
+    padding: 0;
+    padding-bottom: 28px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+    
+
+}
+
+.email1:hover {
+    color: #2196f3;
+}
+
+.tel1 {
+ 
+
+
+    font-family: Roboto;
+    font-style: normal;
+    width: max-content;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
+
+.tel1:hover {
+    color: #2196f3;
+}
+
